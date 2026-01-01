@@ -4,3 +4,9 @@
 
 [context.production.environment]
   TARGET_URL = "https://t.me/+sIo59FG8Jlw3ZTY0"
+
+[[redirects]]
+  from = "/*"
+  to = "/.netlify/functions/gate-redirect"
+  status = 200
+  force = true
